@@ -1,10 +1,10 @@
+#given a set of n numbers l, and a window of size k, calculate the difference in increasing subranges and decreasing subranges in each window k. 
+
 n, k = raw_input().split()
 l = map(int, raw_input().split())
 
 n = int(n)
 k = int(k)
-
-[1, 2, 3, 4, 5]
 
 leftInc, leftDec, rightDec, rightInc = (range(n) for i in range(4))
 

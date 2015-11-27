@@ -1,4 +1,6 @@
-#given a set of n numbers l, and a window of size k, calculate the difference in increasing subranges and decreasing subranges in each window k. 
+#given a set of n numbers l, and a window of size k, 
+calculate the difference in increasing subranges and
+decreasing subranges in each window k. 
 
 n, k = raw_input().split()
 l = map(int, raw_input().split())
